@@ -1,0 +1,1 @@
+OVERRIDE(PACK_DATA,function(){"use strict";global.PACK_DATA=METHOD({run:function(A,n){var t=function(A){var n=COPY_DATA(A),_=[];return EACH(n,function(A,C){A instanceof Date==!0?(n[C]=parseInt(A.getTime()),_.push(C)):CHECK_IS_DATA(A)===!0?n[C]=t(A):CHECK_IS_ARRAY(A)===!0&&EACH(A,function(n,_){CHECK_IS_DATA(n)===!0&&(A[_]=t(n))})}),n.__DATE_ATTR_NAMES=_,n};return t(n)}})});
