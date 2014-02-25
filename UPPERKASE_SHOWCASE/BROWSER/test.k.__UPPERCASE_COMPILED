@@ -1,5 +1,7 @@
-//1393345309000
-var _a, x, i, A;
+//1393347248000
+var _a, x, i, sum, A;
+
+sum = 10;
 
 A = [ 7, 3, 4 ];
 
@@ -8,11 +10,11 @@ for (_a = 0; _a < A.length; _a++) {
     sum += x;
 }
 
-log(sum);
+console.log(sum);
 
 for (i = 0; i < A.length; i++) {
     x = A[i];
     sum += i;
 }
 
-log(sum);
+console.log(sum);
